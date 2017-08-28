@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet"  href="css/main.css">
+	<link rel="stylesheet"  href="css/animate.css">
+	<link rel="stylesheet"  href="css/bootstrap.min.css">
+</head>
+<body id="body">
+	<div class="container">
+		<div class="row">
+			<div class="clock col-sm-12">
+				<h1 id="time" class="jikan"></h1>
+			</div>
+			<div class="setalarm col-sm-12">
+				<select id="hoursdropdown">
+					
+				</select>
+				<select id="minutesdropdown">
+					
+				</select>
+				<select id="ampm">
+					<option value="am">AM</option>
+					<option value="pm">PM</option>
+				</select>
+				<button id="btn" class="btn btn-success">Set Alarm</button>
+				<h2 id="messege"></h2>
+				<audio id="ding">
+					<source src="sounds/ding.wav" type="audio/wav">
+				</audio>
+			</div>
+		</div>
+		
+	</div>
+</body>
+ 	
+ <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+ <script src="js/main.js"></script>
+ <script src="js/furu.js"></script>
+</body>
+</html>
